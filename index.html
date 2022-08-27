@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie's Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="container">
+        <h1 id="heading"></h1>
+    </div>
+
+    <form>
+        <div class="question">
+            <label> 1. Что на самом деле представляет из себя легендарный зеленый код из «Матрицы»?</label>
+            <p> <input type="radio" name="question1" id="answer1">Рецепт суши </p>
+            <p><input type="radio" name="question1">Рецепт пельменей </p>
+            <p><input type="radio" name="question1">Рецепт Пад Тая</p>
+            <p><input type="radio" name="question1">Рецепт жаркого</p>
+        </div>
+
+        <div class="question">
+            <label>2. Кто на самом деле рисовал Розу в «Титанике»?</label>
+            <p> <input type="radio" name="question2">Леонардо ДиКаприо</p>
+            <p><input type="radio" name="question2">Билли Зейн </p>
+            <p><input type="radio" name="question2" id="answer2">Джеймс Кэмерон</p>
+            <p><input type="radio" name="question2">Кэти Бейтс</p>
+        </div>
+
+        <div class="question">
+            <label>3. Где снимали трилогию «Властелин колец»?</label>
+            <p> <input type="radio" name="question3">В Ирландии</p>
+            <p><input type="radio" name="question3">В Исландии </p>
+            <p><input type="radio" name="question3" id="answer3">В Новой Зеландии</p>
+            <p><input type="radio" name="question3">В Австралии</p>
+        </div>
+        
+        <div class="question">
+            <label>4. Кому принадлежал тот самый кот из «Крестного отца»?</label>
+            <p> <input type="radio" name="question4">Фрэнсису Копполе</p>
+            <p><input type="radio" name="question4">Дайан Китон </p>
+            <p><input type="radio" name="question4">Аль Пачино</p>
+            <p><input type="radio" name="question4" id="answer4">Никому — животное было бездомным</p>
+        </div>
+
+        <button type="submit" class="btn">Отправить ответы</button>
+
+        <p id="results"></p>
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
